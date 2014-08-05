@@ -18,6 +18,7 @@ int main(int argc, char* argv[]) {
 	// Construct the samples to run on:
 	SH::SampleHandler sh;
 	SH::scanDir(sh, "xaod_store");
+	//SH::scanDir(sh, "/afs/cern.ch/atlas/project/PAT/xAODs/r5534/");
 
 	// Set the name of the input TTree. It's always "CollectionTree"
 	// for xAOD files.
